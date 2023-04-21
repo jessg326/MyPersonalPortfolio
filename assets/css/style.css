@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(94, 66, 32);
+    padding: 5rem;
+    font-size: 3rem;
+    border: 4px solid black;
+    
+}
+
+header nav {
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+   
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right:50px;
+    
+}
+
+main {
+    display: inline-block;
+    margin-right:50px;
+    width:75%;
+}
+
+.about-me, 
+.contact-me,
+.my-work,
+.resume {
+    margin-top: 20px;
+    padding: 50px;
+    height: 250px;
+    background-color: rgba(88, 50, 0, 0.431);
+    border: 2px solid black;
+}
+
+.picGif {
+    background-image: url(../blog_post_js.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    border: 1.5px solid black;
+}
+
+main section p {
+    font-size: 25px;
+    display: flex-column;
+
+}
